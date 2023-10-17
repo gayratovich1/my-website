@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(50, 50, 50);
+}
+
+.navbar .content {
+    background-color: #222;
+    color: white;
+    width: 1280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 1px 0 10px #fc0;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-item:hover a {
+    border-bottom: 2px #fc0 solid;
+    text-shadow: #fc0 1px 0 10px;
+    box-sizing: border-box;
+    transition: ease .5s;
+    font-size: 18px;
+}
+
+.logo {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 8px;
+    font-size: 32px;
+    padding: 10px 25px;
+    text-shadow: #fc0 1px 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+    background-color: #222;
+    width: 100vh;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 1px 0 10px #fc0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.about {
+    color: white;
+    text-shadow: rgb(255, 222, 88) 1px 0 10px;
+    font-size: 32px;
+    margin: 24px 24px 4px 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tag {
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: white 1px 0 10px;
+}
