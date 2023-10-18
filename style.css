@@ -22,10 +22,12 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 20px 0;
     margin: 0 auto;
     border-radius: 5px;
     box-shadow: 1px 0 10px #fc0;
+    gap: 25px;
 }
 
 .nav {
@@ -62,7 +64,7 @@ a {
 .card {
     background-color: #222;
     margin: auto;
-    width: 50%;
+    width: 70%;
     margin-top: 40px;
     box-shadow: 1px 0 10px #fc0;
     padding: 30px;
