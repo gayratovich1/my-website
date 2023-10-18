@@ -9,11 +9,16 @@
 body {
     background-color: rgb(50, 50, 50);
 }
-
+.container{
+    max-width: 1660px;
+    margin: 0 auto;
+    width: 100%;
+    padding:  0 40px;
+}
 .navbar .content {
     background-color: #222;
     color: white;
-    width: 1280px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,6 +30,7 @@ body {
 
 .nav {
     display: flex;
+    flex-wrap: wrap;
     gap: 25px;
 }
 
@@ -43,6 +49,9 @@ body {
     font-size: 32px;
     padding: 10px 25px;
     text-shadow: #fc0 1px 0 10px;
+    border: 1px solid #fc0;
+    border-radius: 5px;
+    box-shadow: 1px 0 10px #fc0;
 }
 
 a {
@@ -52,11 +61,12 @@ a {
 
 .card {
     background-color: #222;
-    width: 100vh;
     margin: auto;
+    width: 50%;
     margin-top: 40px;
     box-shadow: 1px 0 10px #fc0;
     padding: 30px;
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +95,6 @@ a {
 
 .text {
     color: white;
-    width: 620px;
     margin-top: 50px;
     margin-bottom: 25px;
 }
@@ -97,7 +106,7 @@ a {
 
 .card2 {
     background-color: #222;
-    width: 100vh;
+    width: 50%;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -108,24 +117,29 @@ a {
 }
 
 .icon-items {
-    width: 900px;
+    width: 100%;
+    margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
+
 .item {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     background-color: rgb(50, 50, 50);
     border-radius: 50%;
     box-shadow: inset rgb(0, 125, 255) 5px 3px 7px;
     margin: 20px;
+    padding: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     text-shadow: rgb(0, 125, 255) 1px 0 10px;
     font-weight: 800;
     cursor: pointer;
@@ -145,6 +159,7 @@ a {
     align-items: center;
     font-size: 36px;
     text-shadow: rgb(0, 125, 255) 1px 0 10px;
+    border-radius: 5px;
 }
 
 .card4 {
@@ -161,11 +176,12 @@ a {
     align-items: center;
     font-size: 36px;
     text-shadow: rgb(0, 255, 0) 1px 0 10px;
+    border-radius: 5px;
 }
 
 .card5 {
     background-color: #222;
-    width: 100vh;
+    width: 50%;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -176,19 +192,20 @@ a {
 }
 
 .contact-icon {
-    width: 100vh;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
 .contact-item {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-color: rgb(50, 50, 50);
     border-radius: 50%;
     box-shadow: inset rgb(0, 255, 0) 5px 3px 7px;
-    margin: 10px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,7 +217,7 @@ a {
 }
 
 img {
-    width: 70px;
+    width: 40px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -215,4 +232,11 @@ img {
     text-shadow: rgb(0, 255, 0) 1px 0 10px;
     font-weight: 800;
     letter-spacing: 2px;
+}
+
+@media(max-width: 500px){
+    .icon-items .item{
+        width: 80px;
+        height: 80px;
+    }
 }
