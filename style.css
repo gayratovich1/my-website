@@ -83,7 +83,7 @@ a {
 .about {
     color: white;
     text-shadow: rgb(255, 222, 88) 1px 0 10px;
-    font-size: 32px;
+    font-size: 180%;
     margin: 24px 24px 4px 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
