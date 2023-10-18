@@ -83,7 +83,7 @@ a {
 .about {
     color: white;
     text-shadow: rgb(255, 222, 88) 1px 0 10px;
-    font-size: 180%;
+    font-size: 160%;
     margin: 24px 24px 4px 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -135,9 +135,8 @@ a {
     border-radius: 50%;
     box-shadow: inset rgb(0, 125, 255) 5px 3px 7px;
     margin: 20px;
-    padding: 10px;
+    padding: 40px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
